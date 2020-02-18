@@ -21,5 +21,21 @@
         right: -66px;
         left: auto;
     }
+    .slick-dots {
+        display: flex;
+        list-style-type: none;
+        justify-content: center;
+    }
+    li {
+        padding: 0 7px;
+    }
+    .slick-active {
+        button {
+            background-color: $main-color;
+            border: none;
+            height: 100%;
+        }
+    }
+    
 }
 
