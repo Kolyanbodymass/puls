@@ -10,6 +10,14 @@
         padding: 40px 20px 67px 20px;
         min-height: 590px;
     }
+
+    .catalog__content {
+        justify-content: center;
+    }
+
+    .catalog-item {
+        margin: 10px;
+    }
 }
 
 @media (max-width: 767px) {
