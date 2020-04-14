@@ -48,7 +48,7 @@ $(document).ready(function(){
 		$(this).on('click', function() {
 			$('#order .modal__descr').text($('.catalog-item__subtitle').eq(i).text());
 			$('.overlay, #order').fadeIn('slow');
-		})
+		});
 	});
 
 	function valideForms(form){
@@ -119,4 +119,14 @@ $(document).ready(function(){
 	});
 
 	new WOW().init();
+});
+
+let advantages__item = document.getElementsByClassName('advantages__item'),
+	advantages__icon_animated = document.querySelector('.advantages__icon_animated');
+
+advantages__item[1].addEventListener('mouseover', function() {
+	advantages__icon_animated.style.animation = ("heartbeat 1.5s ease infinite");
+});
+advantages__item[1].addEventListener('mouseleave', function() {
+	advantages__icon_animated.style.animation = "none";
 });
