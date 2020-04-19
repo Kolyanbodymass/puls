@@ -1,6 +1,6 @@
 
 .advantages {
-    padding: 70px 0 80px 0;
+    padding: 70px 10px 80px 10px;
     background-color: #f6f6f6;
     &__wrapper {
         margin-top: 65px;
@@ -30,12 +30,12 @@
             text-decoration: underline;
         }
     }
-    &__icon {
-        &_animated {
-            // animation: heartbeat 1.5s ease infinite;
-            // &:hover {
-            //     animation-play-state: paused;
-            // }
-        }
-    }
+    // &__icon {
+    //     &_animated {
+    //         // animation: heartbeat 1.5s ease infinite;
+    //         // &:hover {
+    //         //     animation-play-state: paused;
+    //         // }
+    //     }
+    // }
 }
