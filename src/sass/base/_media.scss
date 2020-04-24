@@ -115,7 +115,23 @@
         &__header {
             text-align: center;
             font-size: 36px;
-        }        
+        }
+        &__wrapper {
+            margin-top: 30px;
+        }
+        &__icons {
+            flex-direction: column;
+            align-items: center;
+            margin-top: 20px;
+            width: initial;
+        }
+        &__icon {
+            margin-bottom: 20px;
+        }
+        &__subheader {
+            text-align: center;
+            font-size: 19px;
+        }  
     }
     .header {
         &__official {
@@ -149,24 +165,13 @@
         margin-left: 0;
     }
     .catalog__tab {
-        font-size: 14px;
+        font-size: 11px;
     }
     .header {
         display: flex;
         flex-direction: column;
     }
     .header__logo {
-        margin-bottom: 20px;
-    }
-    .promo__wrapper {
-        margin-top: 30px;
-    }
-    .promo__icons {
-        flex-direction: column;
-        align-items: center;
-        margin-top: 20px;
-    }
-    .promo__icon {
         margin-bottom: 20px;
     }
     .button_main {
@@ -187,8 +192,26 @@
     .button_submit {
         font-size: 14px;
     }
+    .title {
+        font-size: 25px;
+    }
+    .footer {
+        &__info {
+            width: 100%;
+        }
+        &__addr {
+            font-size: 15px;
+        }
+        &__social {
+            justify-content: center;
+        }
+    }
+    
 }
 
 @media (max-width: 320px) {
-
+    .button_main {
+        width: 200px;
+        font-size: 12px;
+    }
 }
